@@ -22,6 +22,7 @@ pycryptodome = "^3.18.0"
 pymupdf = "^1.22.5"
 transformers = "^4.33.1"
 python-dotenv = "^0.21.1"
+spacy = "^3.7.2"
 
 
 [tool.poetry.group.dev.dependencies]

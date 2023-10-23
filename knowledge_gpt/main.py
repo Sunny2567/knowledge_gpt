@@ -50,7 +50,8 @@ uploaded_file = st.file_uploader(
     help="Scanned documents are not supported yet!",
 )
 
-model: str = st.selectbox("Model", options=MODEL_LIST)  # type: ignore
+# model: str = st.selectbox("Model", options=MODEL_LIST)  # type: ignore
+model = "gpt-3.5-turbo"
 
 with st.expander("Advanced Options"):
     return_all_chunks = st.checkbox("Show all chunks retrieved from vector search")
