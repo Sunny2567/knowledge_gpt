@@ -47,6 +47,12 @@ poetry shell
 
 > **Note:** Make sure you have a paid OpenAI API key for faster completions and to avoid hitting rate limits.
 
+3.1 More config caused by model change on chunking
+```bash
+poetry add spacy
+python -m spacy download zh_core_web_md
+```
+
 4. Run the Streamlit server
 
 ```bash
